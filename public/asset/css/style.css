@@ -1,0 +1,57 @@
+body {
+    padding-top: 20px;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.card {
+    border-radius: 10px;
+    color: #fff;
+}
+
+.icon {
+    font-size: 3rem;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+/* You can assign specific colors and icons per stage */
+.card-visit {
+    background-color: #5cb85c;
+    /* Green for visitors */
+}
+
+.card-sales {
+    background-color: #f0ad4e;
+    /* Orange for sales */
+}
+
+.card-unique {
+    background-color: #5bc0de;
+    /* Light blue for unique visits */
+}
+
+.card-bounce {
+    background-color: #d9534f;
+    /* Red for bounce rate */
+}
+
+.card-general {
+    background-color: #337ab7;
+    /* Default blue for other cards */
+}
+
+.stat {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1rem;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
